@@ -25,7 +25,7 @@ A clean architecture starter template for building REST APIs with [Go Fiber](htt
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/jtom-sh/fiber-starter.git
+git clone https://github.com/jakubtomas-cz/fiber-starter.git
 cd fiber-starter
 ```
 

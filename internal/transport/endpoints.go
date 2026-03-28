@@ -8,6 +8,7 @@ import (
 func (t *Transport) SetupEndpoints() {
 	t.HealthEndpoints()
 	t.PagesEndpoints()
+	t.APIEndpoints()
 }
 
 func (t *Transport) HealthEndpoints() {

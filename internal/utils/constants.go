@@ -8,4 +8,4 @@ const PROXY_HEADER_KEY string = "PROXY_HEADER"
 const VALIDATION_ERR_MSG string = "validation error"
 
 // Integers
-const DEFAULT_PORT int = 1080
+const DEFAULT_PORT int = 8090

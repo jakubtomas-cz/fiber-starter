@@ -61,7 +61,7 @@ Build and run the application in a Docker container:
 
 ```bash
 docker build -t fiber-starter .
-docker run -e DATABASE_URL="your-database-url" -p 1080:1080 fiber-starter
+docker run -e DATABASE_URL="your-database-url" -p 8090:8090 fiber-starter
 ```
 
 ## Why Clean Architecture?
@@ -210,7 +210,7 @@ Validation errors are automatically returned as structured HTTP responses, ensur
 - `DATABASE_URL` - Connection string for your database
   - PostgreSQL: `postgres://user:password@host:port/database?sslmode=disable`
   - SQLite: `filename.db`
-- `PORT` - Server port (default: `1080`)
+- `PORT` - Server port (default: `8090`)
 - `PROXY_HEADER` - Proxy header for X-Forwarded-For or similar headers (optional)
 
 ## Customization & Enhancement
